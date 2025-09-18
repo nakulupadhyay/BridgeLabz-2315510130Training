@@ -63,7 +63,7 @@ class Magazine extends LibraryItem {
      super(id, title, author);
  }
  public int getLoanDuration() {
-     return 7; // 1 week
+     return 7; 
  }
 }
 
@@ -73,7 +73,7 @@ class DVD extends LibraryItem {
  }
 
  public int getLoanDuration() {
-     return 3; // 3 days
+     return 3;
  }
 }
 
@@ -96,3 +96,4 @@ public class LibraryManagementSystem {
      item1.reserveItem("Charlie");
  }
 }
+
